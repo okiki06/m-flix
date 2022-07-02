@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first-banner{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50% ), url(M-FLIUXIMAGE.jpg);
+            background-size: cover;
+            text-align: center;
+            height: 100vh;
+           
+        }
+
+    .logo{
+        display: flex;
+    }
+
+    .logo-text{
+order: 1;
+color: red;
+margin-top:-4px;
+margin-left: 10px;
+font-size: 40px;
+align-items: center;
+
+
+
+    }
+
+
+    .signin{
+        background-color: red;
+        height: 28px;
+        width: 60px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        order: 2;
+       margin-left: 1200px;
+       border-radius: 3px;
+       margin-right: 10px;
+       padding: 10px;
+    }
+
+    .signin :hover{
+       background-color: black;
+    }
+
+.all-texts{
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    margin-top: 10%;
+    line-height: 2;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.head{
+    font-size: 260%;
+}
+
+
+.srch, .btn{
+    padding: 20px;
+}
+
+.btn{
+color: white;
+background-color: red;
+border-bottom-left-radius: 10px;
+font-size: 15px;
+font-family: 'Franklin Gothic Medium';
+}
+
+.srch{
+    width: 500px;
+}
+
+/* second banner */
+
+.banner-2{
+    background:  linear-gradient(to top, rgba(0, 0, 0, 1)50%, rgba(0, 0, 0, 1)50% );
+    height: 70vh;
+    margin-top: 5px;
+    display: flex;
+    justify-items: center;
+    position: relative;
+    
+    
+
+}
+
+.head-b{
+    color: whitesmoke;
+    width: 52%;
+    height: 100%;
+   padding-top: 26vh;
+   margin: 0 auto;
+   margin-left: 150px;
+
+}
+
+.tvhead1{
+    font-family: Arial;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.tvhead2{
+    font-size: 28px;
+    font-family: Impact;
+    font-weight: lighter;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    position: absolute;
+    right: -150px;
+   
+}
